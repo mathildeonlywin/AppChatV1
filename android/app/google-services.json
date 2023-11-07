@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075280834080",
+    "project_id": "appchat-bd300",
+    "storage_bucket": "appchat-bd300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075280834080:android:a9409d08b5b123ac3ed645",
+        "android_client_info": {
+          "package_name": "com.appchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB73lK0celjUrdVo9WGEsvmpNzqt_Y-MAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
