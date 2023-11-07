@@ -36,3 +36,14 @@ jobs:
 
       - name: Build app for web
         run: flutter build web
+
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_APPCHAT_BD300 }}'
+          projectId: appchat-bd300
+
+     
+       - run: firebase deploy 
+
+
